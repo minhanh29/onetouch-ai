@@ -38,7 +38,8 @@ class ChatBot:
         self.ignore_letters = ["?", ",", ".", "!"]
 
     def preprocess(self, sentence):
-        word_list = nltk.word_tokenize(sentence)
+        # word_list = nltk.word_tokenize(sentence)
+        word_list = sentence.strip().split(" ")
         word_list = [word.lower() for word in word_list
                      if word not in self.ignore_letters]
         bag = np.zeros(len(self.words))
