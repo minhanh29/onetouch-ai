@@ -27,4 +27,4 @@ def recognize():
 
 if __name__ == '__main__':
     ChatBot.getInstance().predict("xin chào")
-    app.run(debug=False, use_reloader=True)
+    app.run(debug=True, use_reloader=True)
