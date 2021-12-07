@@ -1,6 +1,5 @@
 import json
 import numpy as np
-import nltk
 from tensorflow.keras.models import load_model
 
 
@@ -10,13 +9,13 @@ class ChatBot:
     @staticmethod
     def getInstance():
         """ Static access method. """
-        if ChatBot.__instance == None:
+        if ChatBot.__instance is None:
             ChatBot()
         return ChatBot.__instance
 
     def __init__(self):
         """ Virtually private constructor. """
-        if ChatBot.__instance != None:
+        if ChatBot.__instance is not None:
             raise Exception("This class is a singleton!")
 
         ChatBot.__instance = self
