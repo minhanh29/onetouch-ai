@@ -52,9 +52,19 @@ class ChatBot:
         return self.classes[index]
 
     def predict(self, sentence):
+        if "one touch" in sentence:
+            sentence = sentence.replace("one touch", "onetouch")
         processed_data = self.preprocess(sentence)
         pred = self.model.predict(np.expand_dims(processed_data, axis=0))
-        index = np.argmax(np.squeeze(pred))
+        pred = np.squeeze(pred)
+
+        score =np.max(pred)
+        if score < 0.78:
+            index = -1
+            response = "Hệ thống hiện không có chức năng này"
+            return index, response
+
+        index = np.argmax(pred)
         response = self.get_response(self.classes[index])
 
         return index, response

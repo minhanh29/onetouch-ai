@@ -4,7 +4,10 @@
 			"id": 0,
 			"tag": "chao_hoi",
 			"responses": ["Xin chào bạn! Tôi có thể giúp gì cho bạn?"],
-			"patterns": ["Xin chào", "Chào bạn"]
+			"patterns": [
+				"Xin chào",
+			   	"Chào bạn"
+			]
 		},
 		{
 			"id": 1,
@@ -77,7 +80,10 @@
 				"hiển thị các khóa học ",
 				"cho tôi xem danh sách khóa học ",
 				"cho tôi xem các khóa học ",
-				"xem tất cả khóa học "
+				"xem tất cả khóa học ",
+				"trở về trang chính",
+				"trở về trang chủ",
+				"quay lại trang chính"
 			]
 		},
 		{
@@ -104,7 +110,9 @@
 				"cho tôi xem khóa học ",
 				"cho tôi xem môn học ",
 				"tôi muốn xem thông tin môn học ",
-				"thông tin khóa học"
+				"thông tin khóa học",
+				"xem môn ",
+				"xem khóa học"
 			]
 		}
 	]
