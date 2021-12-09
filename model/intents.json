@@ -103,7 +103,7 @@
 		{
 			"id": 7,
 			"tag": "thong_tin_khoa_hoc",
-			"responses": ["Thông tin khóa học đây ạ"],
+			"responses": ["Thông tin khóa học "],
 			"patterns": [
 				"hiện thông tin khóa học",
 				"tôi muốn xem khóa học ",
