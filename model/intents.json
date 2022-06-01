@@ -11,67 +11,8 @@
 		},
 		{
 			"id": 1,
-			"tag": "gioi_thieu_cong_ty",
-			"responses": ["OneTouch hiện nay được vận hành bởi …"],
-			"patterns": [
-				"hãy giới thiệu về công ty",
-				"giới thiệu công ty onetouch",
-				"cho tôi biết thêm về công ty",
-				"tôi muốn biết thông tin của công ty",
-				"xem thông tin công ty",
-				"cho tôi xem thông tin công ty",
-				"thông tin onetouch"
-			]
-		},
-		{
-			"id": 2,
-			"tag": "khoa_hoc_xa_hoi_so",
-			"responses": ["Các khóa học xã hội số của hệ thống đây ạ."],
-			"patterns": [
-				"hiện danh sách khóa học xã hội số",
-				"tôi muốn xem các khóa học xã hội số",
-				"các khóa học xã hội số",
-				"danh sách môn học xã hội số",
-				"hiển thị các khóa học xã hội số",
-				"cho tôi xem danh sách khóa học xã hội số",
-				"cho tôi xem các khóa học xã hội số",
-				"xem tất cả khóa học xã hội số"
-			]
-		},
-		{
-			"id": 3,
-			"tag": "khoa_hoc_kinh_te_so",
-			"responses": ["Các khóa học kinh tế số của hệ thống đây ạ."],
-			"patterns": [
-				"hiện danh sách khóa học kinh tế số",
-				"tôi muốn xem các khóa học kinh tế số",
-				"các khóa học kinh tế số",
-				"danh sách môn học kinh tế số",
-				"hiển thị các khóa học kinh tế số",
-				"cho tôi xem danh sách khóa học kinh tế số",
-				"cho tôi xem các khóa học kinh tế số",
-				"xem tất cả khóa học kinh tế số"
-			]
-		},
-		{
-			"id": 4,
-			"tag": "khoa_hoc_chinh_phu_so",
-			"responses": ["Các khóa học chính phủ số của hệ thống đây ạ."],
-			"patterns": [
-				"hiện danh sách khóa học chính phủ số",
-				"tôi muốn xem các khóa học chính phủ số",
-				"các khóa học chính phủ số",
-				"danh sách môn học chính phủ số",
-				"hiển thị các khóa học chính phủ số",
-				"cho tôi xem danh sách khóa học chính phủ số",
-				"cho tôi xem các khóa học chính phủ số",
-				"xem tất cả khóa học chính phủ số"
-			]
-		},
-		{
-			"id": 5,
 			"tag": "danh_sach_khoa_hoc",
-			"responses": ["Tất cả các khóa học của hệ thống đây ạ."],
+			"responses": ["Đây là danh sách khóa học của hệ thống."],
 			"patterns": [
 				"hiện danh sách khóa học ",
 				"tôi muốn xem các khóa học ",
@@ -87,23 +28,25 @@
 			]
 		},
 		{
-			"id": 6,
+			"id": 2,
 			"tag": "them_khoa_hoc",
 			"responses": ["Đã thêm khóa học "],
 			"patterns": [
 				"thêm khóa học này vào giỏ hàng",
 				"tôi muốn thêm khóa học này vào giỏ hàng",
 				"tôi muốn mua khóa học này",
+				"tôi muốn mua khóa học này",
 				"thêm khóa học này cho tôi",
+				"thêm khóa học này vào giỏ hàng",
 				"thêm môn học ",
 				"mua khóa học này",
 				"cho tôi mua khóa học"
 			]
 		},
 		{
-			"id": 7,
+			"id": 3,
 			"tag": "thong_tin_khoa_hoc",
-			"responses": ["Thông tin khóa học "],
+			"responses": ["Đây là thông tin về khóa học "],
 			"patterns": [
 				"hiện thông tin khóa học",
 				"tôi muốn xem khóa học ",
